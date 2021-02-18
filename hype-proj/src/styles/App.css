@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  font-family: 'Arial Rounded MT Bold';
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #e8d7f5;
+  background-image: url('../stars-01.png');
+}
+
+h1 {
+  font-size: 70px !important;
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+}
+
+Button {
+  border-color: #e8d7f5 !important;
+  background-color: #e8d7f5 !important;
+  color: #907c9c !important;
+}
+
+Button:hover {
+  background-color: #d6bee9 !important;
+  border-color: #d6bee9  !important;
+  transition: .5s;
+}
+
+.bg_color {
+  background-color: #6f4f87;
+  padding: 40px 60px;
+}
+
+#footer {
+  position: relative;
+  bottom: 0;
+}
